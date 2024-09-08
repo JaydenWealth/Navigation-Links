@@ -10,6 +10,7 @@ body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
     color: #333;
+    scroll-behavior: smooth; /* Smooth scrolling */
 }
 
 /* Navbar styling */
@@ -67,6 +68,23 @@ body {
     height: 3px;
     background-color: #fff;
     transition: all 0.3s ease;
+}
+
+/* Section styling */
+.section {
+    padding: 100px 20px;
+    min-height: 100vh;
+    background-color: #e0e0e0;
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.section p {
+    font-size: 18px;
 }
 
 /* Responsive styling */
